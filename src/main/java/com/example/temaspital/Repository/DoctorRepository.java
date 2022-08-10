@@ -1,0 +1,14 @@
+package com.example.temaspital.Repository;
+
+import com.example.temaspital.Model.Doctor;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+
+public interface DoctorRepository extends JpaRepository<Doctor, Integer>{
+    List<Doctor> findAll();
+    Doctor getDoctorById(Integer id);
+}
