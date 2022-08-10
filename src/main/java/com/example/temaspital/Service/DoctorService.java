@@ -1,6 +1,4 @@
 package com.example.temaspital.Service;
-
-
 import com.example.temaspital.Exceptions.NoDoctorException;
 import com.example.temaspital.Repository.DoctorRepository;
 import com.example.temaspital.Repository.PatientRepository;

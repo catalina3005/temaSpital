@@ -1,9 +1,7 @@
 package com.example.temaspital.Repository;
-
 import com.example.temaspital.Model.Doctor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 @Repository

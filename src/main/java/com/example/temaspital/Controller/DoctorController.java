@@ -1,13 +1,10 @@
 package com.example.temaspital.Controller;
-
 import com.example.temaspital.Exceptions.NoDoctorException;
 import com.example.temaspital.Model.Doctor;
 import com.example.temaspital.Model.Specialty;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import com.example.temaspital.Service.DoctorService;
-
 import java.util.List;
 
 @RestController

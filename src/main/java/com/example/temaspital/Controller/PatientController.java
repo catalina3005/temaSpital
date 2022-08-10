@@ -6,7 +6,6 @@ import com.example.temaspital.Model.Visit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.example.temaspital.Service.PatientService;
-
 import java.util.List;
 
 @RestController

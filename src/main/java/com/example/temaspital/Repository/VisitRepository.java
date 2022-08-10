@@ -1,5 +1,4 @@
 package com.example.temaspital.Repository;
-
 import com.example.temaspital.Model.Specialty;
 import com.example.temaspital.Model.Visit;
 import org.springframework.data.jpa.repository.JpaRepository;

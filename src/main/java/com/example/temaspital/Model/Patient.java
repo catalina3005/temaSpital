@@ -1,13 +1,10 @@
 package com.example.temaspital.Model;
-
-
 import com.example.temaspital.Observer.PatientObserver;
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import com.example.temaspital.Observer.PatientObserver;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
